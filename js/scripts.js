@@ -10,9 +10,8 @@ window.onload = function () {
     event.preventDefault();
     hideResults();
     const q1 = document.querySelector("select#q1").value;
-    const q2 = document.querySelector("input#q2:checked").value;
     const q3 = document.querySelector("select#q3").value;
-    const q4 = document.querySelector("input#q4:checked").value;
+    const q4 = document.querySelector("input#meal").value;
     const q5 = document.querySelector("select#q5").value;
 
     if (q1 === "monstera" && q3 === "true" && q4 === "steak" || "sushi") {
