@@ -42,23 +42,25 @@
   <form id="q4">
     <p>What is your last meal?:</p>
     <input type="radio" id="meal" name="meal" value="steak" checked>
-    <label for="steak">Ribeye steak and Lobster</label><br>
+    <label for="steak">Steak and Lobster</label><br>
     <input type="radio" id="meal" name="meal" value="burger">
-    <label for="burger">A burger and fries</label><br>
+    <label for="burger">Burger and Fries</label><br>
     <input type="radio" id="meal" name="meal" value="sushi">
     <label for="sushi">All you can eat Sushi</label><br>
     <input type="radio" id="meal" name="meal" value="chicken">
     <label for="chicken">Fried Chicken and Mashed Potatos</label><br>
   </form>
   <form id="q5">
-    <label for="q5">Are you a morning person or a night owl?</label>
+    <label for="q5">Are you a morning or night person?</label>
     <select id="q5" name="q5">
-      <option value="morning">I rise with the sun</option>
+      <option value="morning">I rise with the sun!</option>
       <option value="night">Let's party all night!</option>
-    </select>
+    </select><br><br>
     <button type="submit" value="submit">Let's get your results!</button>
   </form>
-  <h2>RESULTS:</h2>
+  <div id="results" class="hidden">
+    <h2>RESULTS:</h2>
+  </div>
   <div id="java" class="hidden">
     <h2>You got Javascript!</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia velit enim optio eligendi possimus odit harum sunt
