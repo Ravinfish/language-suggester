@@ -13,9 +13,25 @@
   <p>This is the <strong>TEST</strong> for you!</p>
   <p>Please take a few moments to answer the below questions, and
     we'll let you know which language you should start with.</p>
-<form id="q1">
-  <label for="q1"></label>
-</form>
+  <form id="q1">
+    <label for="q1">Pick your favorite plant</label>
+    <select id="q1" name="q1">
+      <option value="monstera">Monstera</option>
+      <option value="ponytailPalm">Ponytail Palm</option>
+      <option value="spider">Spider Plant</option>
+    </select>
+  </form>
+  <form id="q2">
+    <p>Choose your favorite board game:</p>
+    <input type="radio" id="game" name="game" value="catan" checked>
+    <label for="catan">Catan</label><br>
+    <input type="radio" id="game" name="game" value="monopoly">
+    <label for="monopoly">Monopoly</label><br>
+    <input type="radio" id="game" name="game" value="carcassonne">
+    <label for="carcassonne">Carcassonne</label><br>
+    <input type="radio" id="game" name="game" value="unicorn">
+    <label for="unicorn">Unstable Unicorns</label><br>
+  </form>
 
 </body>
 
